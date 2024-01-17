@@ -20,7 +20,7 @@ const Button = ({ text, size = 'medium' ,color='primary'}: ButtonProps) => {
   }
 
   return (
-    <button className={`${colors[color]} text-white rounded ${sizes[size]} cursor-pointer w-full`}>
+    <button className={`${colors[color]} text-white rounded ${sizes[size]} cursor-pointer `}>
       {text}
     </button>
   );

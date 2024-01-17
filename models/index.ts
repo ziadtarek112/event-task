@@ -8,6 +8,7 @@ export interface User {
     id: number;
     title: string;
     date: string;
+    description:string;
     duration: string;
     location: string;
     attendees: User[];
