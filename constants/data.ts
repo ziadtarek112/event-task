@@ -1,5 +1,5 @@
 import { Event } from "@/models";
-const events: Event[] = [
+export const events: Event[] = [
     {
       id: 1,
       title: 'Tech Conference',
