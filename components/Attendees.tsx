@@ -8,8 +8,8 @@ const Attendees = ({ attendes }: AttendeesProps) => {
 
     
     return (
-        <div className="w-full ">
-            <table className="mx-auto bg-bg-primary w-[300px] text-center rounded-md "> 
+        <div className="w-full flex justify-center ">
+            <table className=" bg-bg-primary w-[300px] text-center rounded-md "> 
                 <thead>
                 <tr>
                     <th>#Id</th>

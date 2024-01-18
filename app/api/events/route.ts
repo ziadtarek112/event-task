@@ -6,16 +6,18 @@ export async function GET(req: Request) {
   const page =searchParams.get('page') || 1;
   const eventId = searchParams.get('event') || 1;
   const attendeesPerPage = 5;
-
+    console.log('page', page);
+    console.log('event', eventId);
   const res = await fetch('http://localhost:3000/events');
   const allEvents = await res.json();
+   console.log(allEvents);
    
 
   const startIndex = (+page - 1) * attendeesPerPage;
   const endIndex = startIndex + attendeesPerPage;
-    const numberOfPages = Math.ceil(allEvents[eventId].attendees.length / attendeesPerPage);
+    const numberOfPages = Math.ceil(allEvents[+eventId-1].attendees.length / attendeesPerPage);
 
-  const paginatedAttendees = allEvents[eventId].attendees.slice(startIndex, endIndex);
+  const paginatedAttendees = allEvents[+eventId-1].attendees.slice(startIndex, endIndex);
 
     
 
