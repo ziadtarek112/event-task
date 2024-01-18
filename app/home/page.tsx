@@ -1,7 +1,15 @@
 import React from 'react'
-import { events } from '@/constants/data'
 import EventCard from '@/components/EventCard'
-const Home = () => {
+
+const getEvents = async()=>{
+  const res = await fetch('http://localhost:8080/api/events');
+  const events = await res.json();
+  return events.totalEvents;
+}
+const Home = async() => {
+  const events =await getEvents();
+  console.log(events);
+  
   return (
     <div className='mt-4'>
     <h1 className='text-center mb-4'>Available Events</h1>
