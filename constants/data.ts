@@ -59,6 +59,7 @@ export const events: Event[] = [
       duration: '2 hours',
       location: 'Health Hub Gym',
       description: 'Join us for a fitness workshop focusing on health and well-being. The Fitness Workshop provides expert guidance on physical fitness, nutrition, and mental wellness. Whether you\'re a fitness enthusiast or just starting your health journey, this workshop offers valuable insights to help you lead a healthier lifestyle.',
+
       attendees: [
         { id: 501, name: 'Maxwell Turner' },
         { id: 502, name: 'Sophia Lee' },

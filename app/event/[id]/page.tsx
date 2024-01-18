@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import { events } from '@/constants/data'
 import Attendees from '@/components/Attendees'
 import Button from '@/components/Button'
@@ -8,6 +10,7 @@ interface EventProps {
   }
 }
 const Event = ({ params }: EventProps) => {
+  const [modalOpen, setModalOpen] =useState(false)
   const event = events.find((event) => event.id === +params.id)
   return (
     <div className='px-16'>
@@ -29,9 +32,12 @@ const Event = ({ params }: EventProps) => {
           <h1 className='mb-2 mt-2'>Attendees: </h1>
           <Attendees attendes={event?.attendees} />
         </div>
-        <div className='mx-auto w-full'>
-        <Button text='Show more' color='primary' size='medium'/>
+
+        <div className='w-full flex justify-center mt-2' onClick={()=>setModalOpen(true)}>
+        <Button  text='Show more' color='primary' size='medium'/>
         </div>
+
+        {modalOpen && (<div>Modal</div>)}
       </div>
     </div>
   )

@@ -1,0 +1,105 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "title": "Tech Conference",
+        "date": "2024-02-15",
+        "duration": "2 hours",
+        "location": "Tech Expo Center",
+        "description": "Join us for the latest in technology trends and innovations. The Tech Conference brings together industry experts, thought leaders, and enthusiasts to discuss groundbreaking technologies, share insights, and network with like-minded individuals. Don't miss this opportunity to stay ahead in the rapidly evolving tech landscape.",
+        "attendees": [
+          { "id": 101, "name": "John Doe" },
+          { "id": 102, "name": "Jane Smith" },
+          { "id": 103, "name": "Michael Johnson" },
+          { "id": 104, "name": "Emily Brown" },
+          { "id": 105, "name": "David Lee" },
+          { "id": 106, "name": "Sophie Turner" },
+          { "id": 107, "name": "Daniel Wang" },
+          { "id": 108, "name": "Olivia Miller" },
+          { "id": 109, "name": "Ethan Taylor" },
+          { "id": 110, "name": "Ava Wilson" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Art Exhibition",
+        "date": "2024-03-10",
+        "duration": "3 hours",
+        "location": "City Art Gallery",
+        "description": "Explore breathtaking artworks from local and international artists. The Art Exhibition showcases a diverse range of paintings, sculptures, and installations that captivate the imagination. Immerse yourself in the world of art and creativity as we celebrate the richness of human expression.",
+        "attendees": [
+          { "id": 201, "name": "Alice Johnson" },
+          { "id": 202, "name": "Bob Wilson" },
+          { "id": 203, "name": "Olivia Smith" },
+          { "id": 204, "name": "David Taylor" },
+          { "id": 205, "name": "Sophia Brown" },
+          { "id": 206, "name": "Mia Rodriguez" },
+          { "id": 207, "name": "Jackson Miller" },
+          { "id": 208, "name": "Ella Davis" },
+          { "id": 209, "name": "Benjamin Turner" },
+          { "id": 210, "name": "Lily Chen" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Music Festival",
+        "date": "2024-04-20",
+        "duration": "6 hours",
+        "location": "Riverfront Park",
+        "description": "Experience a day filled with live music performances from various genres. The Music Festival brings together talented musicians and bands to create an unforgettable musical journey. Whether you're a fan of rock, pop, jazz, or electronic music, there's something for everyone at this electrifying event.",
+        "attendees": [
+          { "id": 301, "name": "Ella Davis" },
+          { "id": 302, "name": "Sam Thompson" },
+          { "id": 303, "name": "Isaac Miller" },
+          { "id": 304, "name": "Sophie Walker" },
+          { "id": 305, "name": "Aiden Turner" },
+          { "id": 306, "name": "Chloe Wilson" },
+          { "id": 307, "name": "Ryan Smith" },
+          { "id": 308, "name": "Emma Turner" },
+          { "id": 309, "name": "Jacob Thompson" },
+          { "id": 310, "name": "Grace Davis" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Food Expo",
+        "date": "2024-05-15",
+        "duration": "4 hours",
+        "location": "Gourmet Convention Center",
+        "description": "Indulge in a culinary journey featuring gourmet delights and food tastings. The Food Expo brings together top chefs, restaurateurs, and food enthusiasts to celebrate the art of cooking and gastronomy. Discover new flavors, savor exquisite dishes, and explore the world of culinary excellence.",
+        "attendees": [
+          { "id": 401, "name": "Carlos Rodriguez" },
+          { "id": 402, "name": "Lily Chen" },
+          { "id": 403, "name": "Daniel Martinez" },
+          { "id": 404, "name": "Mia Johnson" },
+          { "id": 405, "name": "Ethan Turner" },
+          { "id": 406, "name": "Grace Wilson" },
+          { "id": 407, "name": "Sophia Rodriguez" },
+          { "id": 408, "name": "Jackson Brown" },
+          { "id": 409, "name": "Ava Davis" },
+          { "id": 410, "name": "Noah Smith" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Fitness Workshop",
+        "date": "2024-06-08",
+        "duration": "2 hours",
+        "location": "Health Hub Gym",
+        "description": "Join us for a fitness workshop focusing on health and well-being. The Fitness Workshop provides expert guidance on physical fitness, nutrition, and mental wellness. Whether you're a fitness enthusiast or just starting your health journey, this workshop offers valuable insights to help you lead a healthier lifestyle.",
+        "attendees": [
+          { "id": 501, "name": "Maxwell Turner" },
+          { "id": 502, "name": "Sophia Lee" },
+          { "id": 503, "name": "Ryan Adams" },
+          { "id": 504, "name": "Ava Garcia" },
+          { "id": 505, "name": "Oliver Wilson" },
+          { "id": 506, "name": "Ella Thompson" },
+          { "id": 507, "name": "Nathan Smith" },
+          { "id": 508, "name": "Emily Davis" },
+          { "id": 509, "name": "Benjamin Turner" },
+          { "id": 510, "name": "Lily Miller" }
+        ]
+      }
+    ]
+  }
+  
