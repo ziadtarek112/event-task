@@ -5,16 +5,26 @@ import { events } from '@/constants/data'
 import Attendees from '@/components/Attendees'
 import Button from '@/components/Button'
 import AttendeesModal from '@/components/AttendeesModal'
-import { useState } from 'react'
+import { use, useEffect, useState } from 'react'
 interface EventProps {
   params: {
     id: string
   }
 }
+
 const Event = ({ params }: EventProps) => {
   const [modalOpen, setModalOpen] = useState(false);
-  const event = events.find((event) => event.id === +params.id);
-  console.log(modalOpen);
+  const [event, setevent] = useState({});
+    useEffect(()=>{
+        const fethcEvents = async()=>{
+            const res = await fetch(`http://localhost:8080/api/events?event=${params.id}`);
+            const data = await res.json();
+          
+            setevent(data);
+        }
+
+        fethcEvents();
+    },[])
 
   return (
     <div className='px-16'>

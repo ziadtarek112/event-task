@@ -24,10 +24,8 @@ const AttendeesModal = ({ modalOpen,setModalOpen,eventId }:AttendeesModalProps) 
 
     useEffect(()=>{
         const fethcEvents = async()=>{
-            const res = await fetch(`http://localhost:8080/api/events?page=${page}&event=${eventId}`);
-            const data = await res.json();
-        
-            
+            const res = await fetch(`http://localhost:8080/api/attendees?page=${page}&event=${eventId}`);
+            const data = await res.json();            
             setevent(data);
         }
 
