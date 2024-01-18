@@ -1,26 +1,29 @@
+
 import { NextResponse } from 'next/server';
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const page =searchParams.get('page') || 1;
-  const eventsPerPage = 5;
+  const eventId = searchParams.get('event') || 1;
+  const attendeesPerPage = 5;
 
   const res = await fetch('http://localhost:3000/events');
   const allEvents = await res.json();
+   
 
+  const startIndex = (+page - 1) * attendeesPerPage;
+  const endIndex = startIndex + attendeesPerPage;
+    const numberOfPages = Math.ceil(allEvents[eventId].attendees.length / attendeesPerPage);
 
-  const startIndex = (+page - 1) * eventsPerPage;
-  const endIndex = startIndex + eventsPerPage;
-    const numberOfPages = Math.ceil(allEvents.totalEvents / eventsPerPage);
+  const paginatedAttendees = allEvents[eventId].attendees.slice(startIndex, endIndex);
 
-  const paginatedEvents = allEvents.events.slice(startIndex, endIndex);
-
+    
 
   const paginatedResponse = {
-    totalEvents: allEvents.totalEvents,
+    totalEvents: allEvents,
     currentPage: page,
-    eventsPerPage: eventsPerPage,
-    events: paginatedEvents,
+    eventsPerPage: attendeesPerPage,
+    attendees: paginatedAttendees,
     numberOfPages: numberOfPages,
   };
 

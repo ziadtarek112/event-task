@@ -5,6 +5,8 @@ interface AttendeesProps {
 }
 
 const Attendees = ({ attendes }: AttendeesProps) => {
+
+    
     return (
         <div className="w-full ">
             <table className="mx-auto bg-bg-primary w-[300px] text-center rounded-md "> 

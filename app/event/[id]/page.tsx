@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { events } from '@/constants/data'
 import Attendees from '@/components/Attendees'
 import Button from '@/components/Button'
+import AttendeesModal from '@/components/AttendeesModal'
 interface EventProps {
   params: {
     id: string
@@ -36,8 +37,9 @@ const Event = ({ params }: EventProps) => {
         <div className='w-full flex justify-center mt-2' onClick={()=>setModalOpen(true)}>
         <Button  text='Show more' color='primary' size='medium'/>
         </div>
-
-        {modalOpen && (<div>Modal</div>)}
+       <div className='fixed inset-0 flex items-center justify-center'>
+       <AttendeesModal modalOpen={modalOpen} eve/>
+       </div>
       </div>
     </div>
   )
