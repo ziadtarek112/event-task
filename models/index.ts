@@ -14,3 +14,11 @@ export interface User {
     attendees: User[];
   }
 
+  export interface PaginatedResponse {
+    totalEvents: Event[];
+    currentPage: number;
+    eventsPerPage: number;
+    attendees: User[];
+    numberOfPages: number;
+  }
+

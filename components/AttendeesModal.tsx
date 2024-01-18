@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Attendees from "./Attendees";
-import { User } from "@/models";
+import { Event, PaginatedResponse, User } from "@/models";
 import Pagination from "./Paginationbar";
 
 interface AttendeesModalProps {
@@ -12,7 +12,13 @@ interface AttendeesModalProps {
 
 }
 const AttendeesModal = ({ modalOpen,setModalOpen,eventId }:AttendeesModalProps) => {
-    const [event, setevent] = useState();
+    const [event, setevent] = useState<PaginatedResponse>({
+        attendees: [],
+        numberOfPages: 1,
+        totalEvents : [],
+        currentPage: 1,
+        eventsPerPage: 1,
+    });
     const [page , setPage] = useState(1);
 
 

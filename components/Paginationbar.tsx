@@ -2,7 +2,7 @@ import exp from "constants";
 import { useEffect, useState } from "react";
 
 interface PaginationProps {
-    totalPages: number;
+    totalPages: number | 1;
     page: number;
     onPageChange: (page: number) => void;
   }
@@ -17,7 +17,7 @@ const Pagination = ({ totalPages, onPageChange,page }:PaginationProps) => {
       onPageChange(currentPage);
     }, [currentPage, onPageChange]);
   
-    const handlePageClick = (page) => {
+    const handlePageClick = (page :number) => {
       setCurrentPage(page);
     };
   
