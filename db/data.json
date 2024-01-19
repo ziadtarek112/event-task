@@ -5,6 +5,7 @@
         "title": "Tech Conference",
         "date": "2024-02-15",
         "duration": "2 hours",
+        "coverUrl" : "https://agcdn-1d97e.kxcdn.com/wp-content/uploads/2022/05/alphagamma-Cool-IT-tech-events-happening-in-Europe-in-2022-opportunities-1.jpeg",
         "location": "Tech Expo Center",
         "description": "Join us for the latest in technology trends and innovations. The Tech Conference brings together industry experts, thought leaders, and enthusiasts to discuss groundbreaking technologies, share insights, and network with like-minded individuals. Don't miss this opportunity to stay ahead in the rapidly evolving tech landscape.",
         "attendees": [
@@ -25,6 +26,7 @@
         "title": "Art Exhibition",
         "date": "2024-03-10",
         "duration": "3 hours",
+        "coverUrl" : "https://www.jacksonsart.com/blog/wp-content/uploads/2020/01/Mall-Gallery-Main-Gallery-Exhibition-Hire.jpg",
         "location": "City Art Gallery",
         "description": "Explore breathtaking artworks from local and international artists. The Art Exhibition showcases a diverse range of paintings, sculptures, and installations that captivate the imagination. Immerse yourself in the world of art and creativity as we celebrate the richness of human expression.",
         "attendees": [
@@ -45,6 +47,7 @@
         "title": "Music Festival",
         "date": "2024-04-20",
         "duration": "6 hours",
+        "coverUrl": "https://www.anarapublishing.com/wp-content/uploads/elementor/thumbs/photo-1506157786151-b8491531f063-o67khcr8g8y3egfjh6eh010ougiroekqaq5cd8ly88.jpeg",
         "location": "Riverfront Park",
         "description": "Experience a day filled with live music performances from various genres. The Music Festival brings together talented musicians and bands to create an unforgettable musical journey. Whether you're a fan of rock, pop, jazz, or electronic music, there's something for everyone at this electrifying event.",
         "attendees": [
@@ -65,6 +68,7 @@
         "title": "Food Expo",
         "date": "2024-05-15",
         "duration": "4 hours",
+        "coverUrl" : "https://www.singaporefoodshows.com.sg/content/singaporefoodshows/sg/en/home/book-a-stand/why-exhibit/_jcr_content/root/container_1599782356/container_copy/container_copy/image.coreimg.jpeg/1704793268138/7th-1024x576.jpeg",
         "location": "Gourmet Convention Center",
         "description": "Indulge in a culinary journey featuring gourmet delights and food tastings. The Food Expo brings together top chefs, restaurateurs, and food enthusiasts to celebrate the art of cooking and gastronomy. Discover new flavors, savor exquisite dishes, and explore the world of culinary excellence.",
         "attendees": [
@@ -85,6 +89,7 @@
         "title": "Fitness Workshop",
         "date": "2024-06-08",
         "duration": "2 hours",
+        "coverUrl" : "https://recreation.umbc.edu/wp-content/uploads/sites/351/2022/09/057-Recreation-Fitness22-5658.jpg",
         "location": "Health Hub Gym",
         "description": "Join us for a fitness workshop focusing on health and well-being. The Fitness Workshop provides expert guidance on physical fitness, nutrition, and mental wellness. Whether you're a fitness enthusiast or just starting your health journey, this workshop offers valuable insights to help you lead a healthier lifestyle.",
         "attendees": [

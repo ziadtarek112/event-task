@@ -5,10 +5,13 @@ import { Event } from '@/models';
 const getEvents = async()=>{
   const res = await fetch('http://localhost:8080/api/events');
   const events = await res.json();
+
+  
   return events.totalEvents;
 }
 const Home = async() => {
   const events =await getEvents();
+  console.log(events);
   
   return (
     <div className='mt-4'>

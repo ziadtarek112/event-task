@@ -10,6 +10,7 @@ export interface User {
     date: string;
     description:string;
     duration: string;
+    coverUrl: string;
     location: string;
     attendees: User[];
   }
